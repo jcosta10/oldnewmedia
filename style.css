@@ -1,0 +1,324 @@
+*{
+	background: #fff8eb;
+	font-family: aktiv-grotesk, sans-serif;
+	font-size: 10px;
+}
+
+.nav-right{
+	position: fixed;
+	right: 0;
+	z-index: 500;
+	display: flex;
+	height: 100%;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.text-left{
+	position: relative;
+	z-index: 10;
+	display: flex;
+	width: 50px;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	justify-content: space-around;
+	-webkit-box-align:center;
+	align-items: center;
+	marker:  none;
+}
+
+.text-link{
+	display: block;
+	width: auto;
+	height: auto;
+	align-self: auto;
+	order: 0;
+	flex: 0 auto;
+	transform: rotate(90deg);
+	text-align: center;
+	cursor: pointer;
+	-webkit-box-flex: 0;
+	position: relative;
+	padding: 5px 10px;
+	justify-content: center;
+	align-items: center;
+	font-family:  aktiv-grotesk,sans-serif;
+	color: black;
+	font-size: .9em;
+	letter-weight: 500;
+	letter-spacing: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.text-link-left{
+	display: block;
+	width: auto;
+	height: auto;
+	align-self: auto;
+	order: 0;
+	flex: 0 auto;
+	transform: rotate(-90deg);
+	text-align: center;
+	cursor: pointer;
+	-webkit-box-flex: 0;
+	position: relative;
+	padding: 5px 10px;
+	justify-content: center;
+	align-items: center;
+	font-family:  aktiv-grotesk,sans-serif;
+	color: black;
+	font-size: .9em;
+	letter-weight: 500;
+	letter-spacing: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover{
+	color: #424242;
+	cursor: pointer;
+	text-decoration: line-through;
+}
+
+a:active {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: line-through;
+}
+
+
+.nav-left{
+	position: fixed;
+	left: 0;
+	z-index: 500;
+	display: flex;
+	height: 100%;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.mid-content{
+	position: absolute;
+	top: 20%;
+	z-index: 500%;
+	display: flex;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+h1{
+	position: relative;
+	font-family: Georgia, sans-serif;
+	color: #383838;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+ p{
+ 	position: relative;
+ 	padding-top: 20px;
+ 	font-size: 12px;
+ 	color: #383838;
+ 	letter-spacing: 1px;
+ 	text-decoration: none;
+ 	cursor: pointer;
+ 	text-align: justify;
+ 	justify-content: center;
+ 	margin-left: 25%;
+ 	margin-right:25%;
+ }
+
+.introduction{
+	position: relative;
+ 	padding-top: 20px;
+ 	font-size: 12px;
+ 	color: #383838;
+ 	letter-spacing: 1px;
+ 	text-decoration: none;
+ 	cursor: pointer;
+ 	text-align: justify;
+ 	justify-content: center;
+ 	margin-left: 30%;
+ 	margin-right:30%;
+}
+
+ .title{
+ 	font-size: 24px ;
+ 	font-weight: 100;
+    text-decoration: line-through;
+    font-family: Georgia, sans-serif;
+    background-color: #ffb79a;
+ }
+
+ .img-home{
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	cursor: crosshair;
+	width: auto;
+	height: 200px;
+}
+
+.legend-home{
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	color: #383838;
+	font-size: 10px;
+	cursor: crosshair;
+	text-transform: italic;
+}
+
+/*Discrimantion*/
+.modle-group{
+	position: fixed;
+	top: 15%;
+	z-index: 500%;
+	display: flex;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+
+}
+
+.title-button{
+	display: flex;
+	width: 100%;
+	padding-bottom: 0;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.title_h1{
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%;
+	-webkit-box-pack: star;
+	justify-content: flex-start;
+	-webkit-box-align: start;
+	align-items: flex-star;
+	transform: rotate(180deg);
+	font-family: Georgia, sans-serif;
+	color: #383838;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	cursor: crosshair;
+}
+
+.p-left{
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%;
+	-webkit-box-pack: star;
+	justify-content: flex-start;
+	-webkit-box-align: start;
+	align-items: flex-star;
+	color: #383838;
+	font-size: 12px;
+	cursor: crosshair;
+}
+
+.img-format{
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%;
+	padding: 10px 0;
+	-webkit-box-pack: star;
+	justify-content: flex-start;
+	-webkit-box-align: start;
+	align-items: flex-star;
+	cursor: crosshair;
+	width: auto;
+	height: 150px;
+}
+
+.legend{
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%;
+	-webkit-box-pack: star;
+	justify-content: flex-start;
+	-webkit-box-align: start;
+	align-items: flex-star;
+	color: #383838;
+	font-size: 10px;
+	cursor: crosshair;
+	text-transform: italic;
+}
+.a-button{
+	font-size: 12px ;
+ 	font-weight: 200;
+    text-decoration: line-through;
+    font-family: Georgia, sans-serif;
+    background-color: #ffb79a;
+    color: #383838;
+}
+
+.btn{
+	position: relative;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%;
+	-webkit-box-pack: star;
+	justify-content: flex-start;
+	-webkit-box-align: start;
+	align-items: center;
+	padding: 10px 0px;
+	color: #ffb79a;
+}
+
+/*.p-link{
+	color: #999;
+	font-size: 12px;
+	cursor: crosshair;
+	font-weight: 500;
+}*/
